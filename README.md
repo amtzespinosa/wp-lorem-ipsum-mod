@@ -1,5 +1,5 @@
 ﻿# WP Lorem Ipsum MOD 📋
-The original WP Lorem Ipsum allows you to create fake posts by using the [Loripsum.net](https://loripsum.net/) API. But you cannot choose which elements appear in your fake posts. With this modification you can now creste fake posts with just text or choose to add:
+The original WP Lorem Ipsum allows you to create fake posts by using the [Loripsum.net](https://loripsum.net/) API. But you cannot choose which elements appear in your fake posts. With this modification you can now create fake posts with just text or choose to add:
 - Text decoration
 - Links
 - Unordered lists
