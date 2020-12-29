@@ -1,10 +1,10 @@
 <?php
 /**
- * WP Lorem Ipsum
+ * WP Lorem Ipsum MOD
  *
- * Plugin Name: WP Lorem Ipsum
+ * Plugin Name: WP Lorem Ipsum MOD
  * Plugin URI: https://wordpress.org/plugins/wp-lorem-ipsum/
- * Description: Automatically create <strong>new fake posts</strong> to fill the database and get a very good impression for your website.
+ * Description: Automatically create <strong>new fake posts</strong> to fill the database and get a very good impression for your website. MOD version made by Alex Martínez.
  * Version: 2.8
  * Author: Matteo Manna
  * Author URI: https://matteomanna.com/
@@ -315,7 +315,7 @@ if ( !class_exists( 'WPLoremIpsum' ) ) :
             $response = wp_remote_get( $url );
 
             $original = 'Lorem ipsum';
-            $pluginlover = 'Lorem ipsum PluginLover';
+            $pluginlover = 'Lorem ipsum mod by Alex Martínez from Plugin💜Lover';
             $newresponse = str_replace($original, $pluginlover, $response);
 
             return wp_remote_retrieve_body( $newresponse );
