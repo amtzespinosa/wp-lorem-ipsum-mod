@@ -70,7 +70,7 @@ if ( !class_exists( 'WPLoremIpsum' ) ) :
                         <p><?php _e('Operation performed successfully!', 'wp-lorem-ipsum'); ?></p>
                     </div>
                 <?php endif; ?>
-                <h2><?php _e('WP Lorem ipsum', 'wp-lorem-ipsum'); ?></h2>
+                <h2><?php _e('WP Lorem ipsum MOD', 'wp-lorem-ipsum'); ?></h2>
                 <p><?php _e('You can create fake posts to fill your database.', 'wp-lorem-ipsum'); ?></p>
                 <form method="post" action="<?php echo admin_url('admin-post.php'); ?>" class="li-form">
                     <table width="100%" cellspacing="0" cellpadding="0">
