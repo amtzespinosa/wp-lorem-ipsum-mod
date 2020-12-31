@@ -315,7 +315,7 @@ if ( !class_exists( 'WPLoremIpsum' ) ) :
             $response = wp_remote_get( $url );
 
             $original = 'Lorem ipsum';
-            $pluginlover = 'Lorem ipsum mod by Alex Martínez from Plugin💜Lover';
+            $pluginlover = 'Lorem ipsum mod';
             $newresponse = str_replace($original, $pluginlover, $response);
 
             return wp_remote_retrieve_body( $newresponse );
